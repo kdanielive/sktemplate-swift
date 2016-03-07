@@ -11,8 +11,9 @@ import SpriteKit
 
 class GameViewController: UIViewController {
 
-    override func viewWillLayoutSubviews() {
-        super.viewWillLayoutSubviews()
+    override func viewDidLayoutSubviews() {
+
+        super.viewDidLayoutSubviews()
         
         if let skView = self.view as? SKView {
             if (skView.scene == nil) {
