@@ -10,6 +10,9 @@ import SpriteKit
 
 class GameScene: SKScene {
     
+    // MARK: - Private class constants
+    private let player = Floppy()
+    
     // MARK: - Private class variables
     private var lastUpdateTime:NSTimeInterval = 0.0
     
@@ -29,12 +32,21 @@ class GameScene: SKScene {
     
     // MARK: - Setup
     private func setupScene() {
+        // Set the backgroundColor to Black
         self.backgroundColor = SKColor.blackColor()
         
+        // Create an instance of our Bitmap font and make a label with it.
         let font = BMGlyphFont(name: "GameFont")
         let label = BMGlyphLabel(txt: "Yay, it works!", fnt: font)
         label.position = CGPoint(x: kViewSize.width / 2, y: kViewSize.height / 2)
         self.addChild(label)
+        
+        // Run a scale sequence action on the label
+        label.runAction(SKAction.scaleTo(1.1, duration: 0.25), completion: {
+            label.runAction(SKAction.scaleTo(1.0, duration: 0.25))
+        })
+        
+        self.addChild(self.player)
     }
     
     // MARK: - Touch Events
@@ -42,27 +54,21 @@ class GameScene: SKScene {
         let touch:UITouch = touches.first! as UITouch
         let touchLocation = touch.locationInNode(self)
         
-        
-        if kDebug {
-            print(touchLocation)
-        }
+        self.player.flyToPosition(position: touchLocation)
     }
    
     
     // MARK: - Update
     override func update(currentTime: NSTimeInterval) {
+        // Calculate "Delta"
         let delta = currentTime - self.lastUpdateTime
         self.lastUpdateTime = currentTime
         
-        if kDebug {
-            print(delta)
-        }
+        self.player.update()
+
     }
     
     // MARK: - De-Init
     deinit {
-        if kDebug {
-            print("Destroying GameScene")
-        }
     }
 }

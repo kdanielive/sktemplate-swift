@@ -64,8 +64,11 @@
 		3F10F6051C8A6AC00070E12A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10F6021C8A6AC00070E12A /* AppDelegate.swift */; };
 		3F10F6061C8A6AC00070E12A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10F6031C8A6AC00070E12A /* GameScene.swift */; };
 		3F10F6071C8A6AC00070E12A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10F6041C8A6AC00070E12A /* GameViewController.swift */; };
-		3F10F6101C8A6FFF0070E12A /* 8bit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F10F60F1C8A6FFF0070E12A /* 8bit.mp3 */; };
 		3F10F6131C8A70390070E12A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10F6121C8A70390070E12A /* Constants.swift */; };
+		3F9C20EC1C94700500E413FD /* Floppy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C20EB1C94700500E413FD /* Floppy.swift */; };
+		3F9C20EE1C9470E300E413FD /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C20ED1C9470E300E413FD /* Utilities.swift */; };
+		3F9C20F11C9473C000E413FD /* Credits.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F9C20EF1C9473C000E413FD /* Credits.txt */; };
+		3F9C20F21C9473C000E413FD /* Destractor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F9C20F01C9473C000E413FD /* Destractor.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -187,8 +190,11 @@
 		3F10F6031C8A6AC00070E12A /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		3F10F6041C8A6AC00070E12A /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		3F10F60D1C8A6B4B0070E12A /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		3F10F60F1C8A6FFF0070E12A /* 8bit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 8bit.mp3; sourceTree = "<group>"; };
 		3F10F6121C8A70390070E12A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3F9C20EB1C94700500E413FD /* Floppy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Floppy.swift; sourceTree = "<group>"; };
+		3F9C20ED1C9470E300E413FD /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		3F9C20EF1C9473C000E413FD /* Credits.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Credits.txt; sourceTree = "<group>"; };
+		3F9C20F01C9473C000E413FD /* Destractor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Destractor.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -483,6 +489,7 @@
 		3F10F6011C8A6AC00070E12A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3F9C20EA1C946FF600E413FD /* Characters */,
 				3F10F6111C8A702C0070E12A /* Utilities */,
 				3F10F6091C8A6AEF0070E12A /* Scenes */,
 				3F10F6081C8A6ACB0070E12A /* View Controller */,
@@ -521,7 +528,8 @@
 		3F10F60E1C8A6FFF0070E12A /* Music */ = {
 			isa = PBXGroup;
 			children = (
-				3F10F60F1C8A6FFF0070E12A /* 8bit.mp3 */,
+				3F9C20EF1C9473C000E413FD /* Credits.txt */,
+				3F9C20F01C9473C000E413FD /* Destractor.mp3 */,
 			);
 			path = Music;
 			sourceTree = "<group>";
@@ -530,8 +538,17 @@
 			isa = PBXGroup;
 			children = (
 				3F10F6121C8A70390070E12A /* Constants.swift */,
+				3F9C20ED1C9470E300E413FD /* Utilities.swift */,
 			);
 			name = Utilities;
+			sourceTree = "<group>";
+		};
+		3F9C20EA1C946FF600E413FD /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				3F9C20EB1C94700500E413FD /* Floppy.swift */,
+			);
+			name = Characters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -650,7 +667,9 @@
 				3F10F5E81C8A6A590070E12A /* Info.plist in Resources */,
 				3F10F5FD1C8A6A590070E12A /* ObjectAL (OSX)-Info.plist in Resources */,
 				3F10F5D41C8A6A590070E12A /* Default@2x.png in Resources */,
+				3F9C20F21C9473C000E413FD /* Destractor.mp3 in Resources */,
 				3F10F5CF1C8A6A590070E12A /* GameFont@2x~ipad.xml in Resources */,
+				3F9C20F11C9473C000E413FD /* Credits.txt in Resources */,
 				3F10F5391C8A6A110070E12A /* Assets.xcassets in Resources */,
 				3F10F5371C8A6A110070E12A /* Main.storyboard in Resources */,
 				3F10F5E01C8A6A590070E12A /* LICENSE.ObjectAL.txt in Resources */,
@@ -662,7 +681,6 @@
 				3F10F5CD1C8A6A590070E12A /* GameFont.xml in Resources */,
 				3F10F5CC1C8A6A590070E12A /* GameFont.atlas in Resources */,
 				3F10F5D91C8A6A590070E12A /* build_docs.sh in Resources */,
-				3F10F6101C8A6FFF0070E12A /* 8bit.mp3 in Resources */,
 				3F10F5DC1C8A6A590070E12A /* ObjectAL-Overview1.svg in Resources */,
 				3F10F5D31C8A6A590070E12A /* Default-736h@3x.png in Resources */,
 			);
@@ -696,8 +714,10 @@
 				3F10F5D81C8A6A590070E12A /* BMGlyphLabel.swift in Sources */,
 				3F10F6051C8A6AC00070E12A /* AppDelegate.swift in Sources */,
 				3F10F5E41C8A6A590070E12A /* OALUtilityActions.m in Sources */,
+				3F9C20EC1C94700500E413FD /* Floppy.swift in Sources */,
 				3F10F6131C8A70390070E12A /* Constants.swift in Sources */,
 				3F10F5EC1C8A6A590070E12A /* ALChannelSource.m in Sources */,
+				3F9C20EE1C9470E300E413FD /* Utilities.swift in Sources */,
 				3F10F5F51C8A6A590070E12A /* OALSuspendHandler.m in Sources */,
 				3F10F5E61C8A6A590070E12A /* OALAudioTrackNotifications.m in Sources */,
 				3F10F5F81C8A6A590070E12A /* NSMutableArray+WeakReferences.m in Sources */,

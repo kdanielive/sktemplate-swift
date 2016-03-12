@@ -9,10 +9,12 @@
 import SpriteKit
 
 // MARK: - Debug
-let kDebug = false
+let kDebug = true
 
 // MARK: - Screen dimension convenience
 let kViewSize = UIScreen.mainScreen().bounds.size
+let kScreenCenter = CGPoint(x: kViewSize.width / 2, y: kViewSize.height / 2)
+let kScreenCenterBottom = CGPoint(x: kViewSize.width / 2, y: kViewSize.height * 0.3)
 
 // MARK: - Device size convenience
 let kDeviceTablet = (UIDevice.currentDevice().userInterfaceIdiom == UIUserInterfaceIdiom.Pad)

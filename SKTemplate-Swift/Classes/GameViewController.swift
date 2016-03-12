@@ -33,8 +33,15 @@ class GameViewController: UIViewController {
                 skView.presentScene(scene, transition: transition)
                 
                 
-                // Loop the music in all scenes
-                OALSimpleAudio.sharedInstance().playBg("8bit.mp3")
+                // Preload the music
+                OALSimpleAudio.sharedInstance().preloadBg("Destractor.mp3")
+                
+                // Play the music
+                OALSimpleAudio.sharedInstance().playBg("Destractor.mp3", loop: true)
+                
+                if kDebug {
+                    print("Screen width: \(kViewSize.width), Screen height: \(kViewSize.height)")
+                }
             }
         }
     }
