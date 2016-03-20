@@ -6,7 +6,7 @@ This is a template project you can use as an alternative to the Xcode SpriteKit 
 * ObjectAL. Includes [ObjectAL](http://kstenerud.github.io/ObjectAL-for-iPhone/) for *really* easy audio play back in your games.
 * Bitmap Font Support. Includes the required libraries to use Bitmap Font labels generated from [bmglyph](http://www.bmglyph.com) created Bitmap Fonts. 
 * Animated Character. Example animated character that flies to the location tapped on screen.
-* Handy Functions. My most used super handy functions are included in Utilitis.swift. 
+* Handy Functions. My most used super handy functions are included in Utilities.swift. 
 
 ### Renaming your project
 1. Copy renameProject.sh from the root of the project some place handy. Example.
