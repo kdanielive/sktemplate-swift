@@ -23,8 +23,6 @@ class GameViewController: UIViewController {
                     skView.showsNodeCount = true
                 }
                 
-                skView.ignoresSiblingOrder = false
-                
                 let scene = GameScene(size: kViewSize)
                 scene.scaleMode = SKSceneScaleMode.AspectFill
                 
@@ -34,10 +32,10 @@ class GameViewController: UIViewController {
                 
                 
                 // Preload the music
-                OALSimpleAudio.sharedInstance().preloadBg("Destractor.mp3")
+                OALSimpleAudio.sharedInstance().preloadBg(SoundNames.Music)
                 
                 // Play the music
-                OALSimpleAudio.sharedInstance().playBg("Destractor.mp3", loop: true)
+                OALSimpleAudio.sharedInstance().playBg(SoundNames.Music, loop: true)
                 
                 if kDebug {
                     print("Screen width: \(kViewSize.width), Screen height: \(kViewSize.height)")

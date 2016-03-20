@@ -38,7 +38,7 @@ class GameScene: SKScene {
         // Create an instance of our Bitmap font and make a label with it.
         let font = BMGlyphFont(name: "GameFont")
         let label = BMGlyphLabel(txt: "Yay, it works!", fnt: font)
-        label.position = CGPoint(x: kViewSize.width / 2, y: kViewSize.height / 2)
+        label.position = kScreenCenter
         self.addChild(label)
         
         // Run a scale sequence action on the label
@@ -55,6 +55,8 @@ class GameScene: SKScene {
         let touchLocation = touch.locationInNode(self)
         
         self.player.flyToPosition(position: touchLocation)
+        
+        OALSimpleAudio.sharedInstance().playEffect(SoundNames.Pop)
     }
    
     

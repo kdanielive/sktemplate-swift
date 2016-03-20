@@ -11,10 +11,11 @@ import SpriteKit
 class Floppy:SKSpriteNode {
     
     // MARK: - Private class constants
-    private let frame0 = SKTextureAtlas(named: "Sprites").textureNamed("PinkBird0")
-    private let frame1 = SKTextureAtlas(named: "Sprites").textureNamed("PinkBird1")
-    private let frame2 = SKTextureAtlas(named: "Sprites").textureNamed("PinkBird2")
-    private let frame3 = SKTextureAtlas(named: "Sprites").textureNamed("PinkBird3")
+    private let frame0 = GameTextures.sharedInstance.textureWithName(name: SpriteNames.Bird0)
+    private let frame1 = GameTextures.sharedInstance.textureWithName(name: SpriteNames.Bird1)
+    private let frame2 = GameTextures.sharedInstance.textureWithName(name: SpriteNames.Bird2)
+    private let frame3 = GameTextures.sharedInstance.textureWithName(name: SpriteNames.Bird3)
+    
     
     // MARK: - Private class variables
     private var flapAnimation = SKAction()
@@ -30,7 +31,7 @@ class Floppy:SKSpriteNode {
     }
     
     convenience init() {
-        let texture = SKTextureAtlas(named: "Sprites").textureNamed("PinkBird0")
+        let texture = GameTextures.sharedInstance.textureWithName(name: SpriteNames.Bird0)
         self.init(texture: texture, color: SKColor.whiteColor(), size: texture.size())
         
         self.setup()
@@ -61,8 +62,8 @@ class Floppy:SKSpriteNode {
     
     // MARK: - Update
     func update() {
-        let newX = Smooth(startPoint: self.position.x, endPoint: self.targetLocation.x, filter: 0.05)
-        let newY = Smooth(startPoint: self.position.y, endPoint: self.targetLocation.y, filter: 0.05)
+        let newX = Smooth(startPoint: self.position.x, endPoint: self.targetLocation.x, smoothToAmount: 0.05)
+        let newY = Smooth(startPoint: self.position.y, endPoint: self.targetLocation.y, smoothToAmount: 0.05)
         
         self.position = CGPoint(x: newX, y: newY)
     }

@@ -11,11 +11,6 @@
 		3F10F5391C8A6A110070E12A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F10F5381C8A6A110070E12A /* Assets.xcassets */; };
 		3F10F5471C8A6A110070E12A /* SKTemplate_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10F5461C8A6A110070E12A /* SKTemplate_SwiftTests.swift */; };
 		3F10F5521C8A6A110070E12A /* SKTemplate_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10F5511C8A6A110070E12A /* SKTemplate_SwiftUITests.swift */; };
-		3F10F5CC1C8A6A590070E12A /* GameFont.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3F10F5611C8A6A590070E12A /* GameFont.atlas */; };
-		3F10F5CD1C8A6A590070E12A /* GameFont.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F10F5621C8A6A590070E12A /* GameFont.xml */; };
-		3F10F5CE1C8A6A590070E12A /* GameFont@2x.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F10F5631C8A6A590070E12A /* GameFont@2x.xml */; };
-		3F10F5CF1C8A6A590070E12A /* GameFont@2x~ipad.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F10F5641C8A6A590070E12A /* GameFont@2x~ipad.xml */; };
-		3F10F5D01C8A6A590070E12A /* GameFont~ipad.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F10F5651C8A6A590070E12A /* GameFont~ipad.xml */; };
 		3F10F5D11C8A6A590070E12A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F10F5671C8A6A590070E12A /* Default-568h@2x.png */; };
 		3F10F5D21C8A6A590070E12A /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F10F5681C8A6A590070E12A /* Default-667h@2x.png */; };
 		3F10F5D31C8A6A590070E12A /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F10F5691C8A6A590070E12A /* Default-736h@3x.png */; };
@@ -65,10 +60,20 @@
 		3F10F6061C8A6AC00070E12A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10F6031C8A6AC00070E12A /* GameScene.swift */; };
 		3F10F6071C8A6AC00070E12A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10F6041C8A6AC00070E12A /* GameViewController.swift */; };
 		3F10F6131C8A70390070E12A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10F6121C8A70390070E12A /* Constants.swift */; };
+		3F46F5BB1C9F078400E31A06 /* Pop.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F5BA1C9F078400E31A06 /* Pop.caf */; };
+		3F46F5BD1C9F079F00E31A06 /* SoundNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F46F5BC1C9F079F00E31A06 /* SoundNames.swift */; };
+		3F46F5C11C9F090700E31A06 /* SpriteNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F46F5C01C9F090700E31A06 /* SpriteNames.swift */; };
+		3F46F5C41C9F098B00E31A06 /* GameTextures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F46F5C31C9F098B00E31A06 /* GameTextures.swift */; };
+		3F46F5C61C9F0AD000E31A06 /* GameFont.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F5C51C9F0AD000E31A06 /* GameFont.atlas */; };
+		3F46F5CC1C9F0ADA00E31A06 /* GameFont.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F5C71C9F0AD900E31A06 /* GameFont.xml */; };
+		3F46F5CD1C9F0ADA00E31A06 /* GameFont@2x.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F5C81C9F0AD900E31A06 /* GameFont@2x.xml */; };
+		3F46F5CE1C9F0ADA00E31A06 /* GameFont@2x~ipad.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F5C91C9F0AD900E31A06 /* GameFont@2x~ipad.xml */; };
+		3F46F5CF1C9F0ADA00E31A06 /* GameFont@3x.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F5CA1C9F0ADA00E31A06 /* GameFont@3x.xml */; };
+		3F46F5D01C9F0ADA00E31A06 /* GameFont~ipad.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F5CB1C9F0ADA00E31A06 /* GameFont~ipad.xml */; };
+		3F9AA30A1C9F04DA00F2C7C4 /* Pinecones.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F9AA3091C9F04DA00F2C7C4 /* Pinecones.mp3 */; };
 		3F9C20EC1C94700500E413FD /* Floppy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C20EB1C94700500E413FD /* Floppy.swift */; };
 		3F9C20EE1C9470E300E413FD /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C20ED1C9470E300E413FD /* Utilities.swift */; };
 		3F9C20F11C9473C000E413FD /* Credits.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F9C20EF1C9473C000E413FD /* Credits.txt */; };
-		3F9C20F21C9473C000E413FD /* Destractor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F9C20F01C9473C000E413FD /* Destractor.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,11 +104,6 @@
 		3F10F54D1C8A6A110070E12A /* SKTemplate-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SKTemplate-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F10F5511C8A6A110070E12A /* SKTemplate_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKTemplate_SwiftUITests.swift; sourceTree = "<group>"; };
 		3F10F5531C8A6A110070E12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F10F5611C8A6A590070E12A /* GameFont.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = GameFont.atlas; sourceTree = "<group>"; };
-		3F10F5621C8A6A590070E12A /* GameFont.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GameFont.xml; sourceTree = "<group>"; };
-		3F10F5631C8A6A590070E12A /* GameFont@2x.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GameFont@2x.xml"; sourceTree = "<group>"; };
-		3F10F5641C8A6A590070E12A /* GameFont@2x~ipad.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GameFont@2x~ipad.xml"; sourceTree = "<group>"; };
-		3F10F5651C8A6A590070E12A /* GameFont~ipad.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GameFont~ipad.xml"; sourceTree = "<group>"; };
 		3F10F5671C8A6A590070E12A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3F10F5681C8A6A590070E12A /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
 		3F10F5691C8A6A590070E12A /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
@@ -191,10 +191,20 @@
 		3F10F6041C8A6AC00070E12A /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		3F10F60D1C8A6B4B0070E12A /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		3F10F6121C8A70390070E12A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3F46F5BA1C9F078400E31A06 /* Pop.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pop.caf; sourceTree = "<group>"; };
+		3F46F5BC1C9F079F00E31A06 /* SoundNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundNames.swift; sourceTree = "<group>"; };
+		3F46F5C01C9F090700E31A06 /* SpriteNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpriteNames.swift; sourceTree = "<group>"; };
+		3F46F5C31C9F098B00E31A06 /* GameTextures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTextures.swift; sourceTree = "<group>"; };
+		3F46F5C51C9F0AD000E31A06 /* GameFont.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = GameFont.atlas; sourceTree = "<group>"; };
+		3F46F5C71C9F0AD900E31A06 /* GameFont.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GameFont.xml; sourceTree = "<group>"; };
+		3F46F5C81C9F0AD900E31A06 /* GameFont@2x.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GameFont@2x.xml"; sourceTree = "<group>"; };
+		3F46F5C91C9F0AD900E31A06 /* GameFont@2x~ipad.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GameFont@2x~ipad.xml"; sourceTree = "<group>"; };
+		3F46F5CA1C9F0ADA00E31A06 /* GameFont@3x.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GameFont@3x.xml"; sourceTree = "<group>"; };
+		3F46F5CB1C9F0ADA00E31A06 /* GameFont~ipad.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GameFont~ipad.xml"; sourceTree = "<group>"; };
+		3F9AA3091C9F04DA00F2C7C4 /* Pinecones.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pinecones.mp3; sourceTree = "<group>"; };
 		3F9C20EB1C94700500E413FD /* Floppy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Floppy.swift; sourceTree = "<group>"; };
 		3F9C20ED1C9470E300E413FD /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		3F9C20EF1C9473C000E413FD /* Credits.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Credits.txt; sourceTree = "<group>"; };
-		3F9C20F01C9473C000E413FD /* Destractor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Destractor.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -274,6 +284,7 @@
 		3F10F55F1C8A6A590070E12A /* GameResources */ = {
 			isa = PBXGroup;
 			children = (
+				3F46F5B91C9F078400E31A06 /* Sounds */,
 				3F10F5601C8A6A590070E12A /* Fonts */,
 				3F10F5661C8A6A590070E12A /* Launch */,
 				3F10F56D1C8A6A590070E12A /* Library */,
@@ -285,11 +296,12 @@
 		3F10F5601C8A6A590070E12A /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				3F10F5611C8A6A590070E12A /* GameFont.atlas */,
-				3F10F5621C8A6A590070E12A /* GameFont.xml */,
-				3F10F5631C8A6A590070E12A /* GameFont@2x.xml */,
-				3F10F5641C8A6A590070E12A /* GameFont@2x~ipad.xml */,
-				3F10F5651C8A6A590070E12A /* GameFont~ipad.xml */,
+				3F46F5C51C9F0AD000E31A06 /* GameFont.atlas */,
+				3F46F5C71C9F0AD900E31A06 /* GameFont.xml */,
+				3F46F5C81C9F0AD900E31A06 /* GameFont@2x.xml */,
+				3F46F5C91C9F0AD900E31A06 /* GameFont@2x~ipad.xml */,
+				3F46F5CA1C9F0ADA00E31A06 /* GameFont@3x.xml */,
+				3F46F5CB1C9F0ADA00E31A06 /* GameFont~ipad.xml */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -490,6 +502,7 @@
 			isa = PBXGroup;
 			children = (
 				3F9C20EA1C946FF600E413FD /* Characters */,
+				3F46F5C21C9F097F00E31A06 /* Singletons */,
 				3F10F6111C8A702C0070E12A /* Utilities */,
 				3F10F6091C8A6AEF0070E12A /* Scenes */,
 				3F10F6081C8A6ACB0070E12A /* View Controller */,
@@ -529,7 +542,7 @@
 			isa = PBXGroup;
 			children = (
 				3F9C20EF1C9473C000E413FD /* Credits.txt */,
-				3F9C20F01C9473C000E413FD /* Destractor.mp3 */,
+				3F9AA3091C9F04DA00F2C7C4 /* Pinecones.mp3 */,
 			);
 			path = Music;
 			sourceTree = "<group>";
@@ -539,8 +552,26 @@
 			children = (
 				3F10F6121C8A70390070E12A /* Constants.swift */,
 				3F9C20ED1C9470E300E413FD /* Utilities.swift */,
+				3F46F5BC1C9F079F00E31A06 /* SoundNames.swift */,
+				3F46F5C01C9F090700E31A06 /* SpriteNames.swift */,
 			);
 			name = Utilities;
+			sourceTree = "<group>";
+		};
+		3F46F5B91C9F078400E31A06 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				3F46F5BA1C9F078400E31A06 /* Pop.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		3F46F5C21C9F097F00E31A06 /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				3F46F5C31C9F098B00E31A06 /* GameTextures.swift */,
+			);
+			name = Singletons;
 			sourceTree = "<group>";
 		};
 		3F9C20EA1C946FF600E413FD /* Characters */ = {
@@ -657,29 +688,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F10F5CE1C8A6A590070E12A /* GameFont@2x.xml in Resources */,
 				3F10F5DA1C8A6A590070E12A /* ObjectAL-Overview1.eps in Resources */,
 				3F10F5D61C8A6A590070E12A /* Default~ipad.png in Resources */,
+				3F46F5CE1C9F0ADA00E31A06 /* GameFont@2x~ipad.xml in Resources */,
+				3F46F5CD1C9F0ADA00E31A06 /* GameFont@2x.xml in Resources */,
+				3F46F5BB1C9F078400E31A06 /* Pop.caf in Resources */,
+				3F46F5D01C9F0ADA00E31A06 /* GameFont~ipad.xml in Resources */,
+				3F46F5C61C9F0AD000E31A06 /* GameFont.atlas in Resources */,
+				3F46F5CC1C9F0ADA00E31A06 /* GameFont.xml in Resources */,
 				3F10F5DE1C8A6A590070E12A /* ObjectAL-Overview2.png in Resources */,
 				3F10F5DB1C8A6A590070E12A /* ObjectAL-Overview1.png in Resources */,
-				3F10F5D01C8A6A590070E12A /* GameFont~ipad.xml in Resources */,
 				3F10F5D11C8A6A590070E12A /* Default-568h@2x.png in Resources */,
 				3F10F5E81C8A6A590070E12A /* Info.plist in Resources */,
 				3F10F5FD1C8A6A590070E12A /* ObjectAL (OSX)-Info.plist in Resources */,
 				3F10F5D41C8A6A590070E12A /* Default@2x.png in Resources */,
-				3F9C20F21C9473C000E413FD /* Destractor.mp3 in Resources */,
-				3F10F5CF1C8A6A590070E12A /* GameFont@2x~ipad.xml in Resources */,
 				3F9C20F11C9473C000E413FD /* Credits.txt in Resources */,
 				3F10F5391C8A6A110070E12A /* Assets.xcassets in Resources */,
 				3F10F5371C8A6A110070E12A /* Main.storyboard in Resources */,
+				3F9AA30A1C9F04DA00F2C7C4 /* Pinecones.mp3 in Resources */,
 				3F10F5E01C8A6A590070E12A /* LICENSE.ObjectAL.txt in Resources */,
 				3F10F5D51C8A6A590070E12A /* Default@2x~ipad.png in Resources */,
 				3F10F5DF1C8A6A590070E12A /* ObjectAL-Overview2.svg in Resources */,
 				3F10F5D21C8A6A590070E12A /* Default-667h@2x.png in Resources */,
 				3F10F5DD1C8A6A590070E12A /* ObjectAL-Overview2.eps in Resources */,
+				3F46F5CF1C9F0ADA00E31A06 /* GameFont@3x.xml in Resources */,
 				3F10F5FC1C8A6A590070E12A /* InfoPlist.strings in Resources */,
-				3F10F5CD1C8A6A590070E12A /* GameFont.xml in Resources */,
-				3F10F5CC1C8A6A590070E12A /* GameFont.atlas in Resources */,
 				3F10F5D91C8A6A590070E12A /* build_docs.sh in Resources */,
 				3F10F5DC1C8A6A590070E12A /* ObjectAL-Overview1.svg in Resources */,
 				3F10F5D31C8A6A590070E12A /* Default-736h@3x.png in Resources */,
@@ -737,10 +770,13 @@
 				3F10F5ED1C8A6A590070E12A /* ALContext.m in Sources */,
 				3F10F5FA1C8A6A590070E12A /* OALAudioFile.m in Sources */,
 				3F10F5E91C8A6A590070E12A /* OALSimpleAudio.m in Sources */,
+				3F46F5BD1C9F079F00E31A06 /* SoundNames.swift in Sources */,
 				3F10F5E11C8A6A590070E12A /* OALAction.m in Sources */,
 				3F10F5F61C8A6A590070E12A /* IOSVersion.m in Sources */,
+				3F46F5C41C9F098B00E31A06 /* GameTextures.swift in Sources */,
 				3F10F5F41C8A6A590070E12A /* OALAudioSession.m in Sources */,
 				3F10F5EB1C8A6A590070E12A /* ALCaptureDevice.m in Sources */,
+				3F46F5C11C9F090700E31A06 /* SpriteNames.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
