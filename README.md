@@ -14,7 +14,7 @@ This is a template project you can use as an alternative to the Xcode SpriteKit 
 cd ~/Downloads && git clone https://github.com/spritekitbook/sktemplate-swift.git
 ```
 
-2. Copy renameProject.sh from the root of the project some place handy. Example.
+2. Copy renameProject.sh from the root of the project some place handy, like bin.
 ```bash
 mkdir ~/bin && cp ~/Downloads/sktemplate-swift/renameProject.sh ~/bin
 ```
