@@ -35,7 +35,7 @@ class GameScene: SKScene {
         // Set the backgroundColor to Black
         self.backgroundColor = SKColor.blackColor()
         
-        // Create an instance of our Bitmap font and make a label with it.
+        // Create an instance of our Bitmap Font and make a label with it.
         let font = BMGlyphFont(name: "GameFont")
         let label = BMGlyphLabel(txt: "Yay, it works!", fnt: font)
         label.position = kScreenCenter

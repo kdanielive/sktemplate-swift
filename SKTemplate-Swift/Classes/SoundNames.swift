@@ -13,4 +13,5 @@ class SoundNames {
     
     class var Music:String  { return "Pinecones.mp3" }
     class var Pop:String    { return "Pop.caf" }
+    
 }

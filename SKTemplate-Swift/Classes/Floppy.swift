@@ -62,8 +62,8 @@ class Floppy:SKSpriteNode {
     
     // MARK: - Update
     func update() {
-        let newX = Smooth(startPoint: self.position.x, endPoint: self.targetLocation.x, smoothToAmount: 0.05)
-        let newY = Smooth(startPoint: self.position.y, endPoint: self.targetLocation.y, smoothToAmount: 0.05)
+        let newX = Smooth(startPoint: self.position.x, endPoint: self.targetLocation.x, percentToMove: 0.05)
+        let newY = Smooth(startPoint: self.position.y, endPoint: self.targetLocation.y, percentToMove: 0.05)
         
         self.position = CGPoint(x: newX, y: newY)
     }

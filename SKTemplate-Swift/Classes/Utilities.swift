@@ -10,7 +10,7 @@ import SpriteKit
 
 
 /**
- Returns an SKColor from an RGB HEX value (e.g. 0x00AAFF) "Deep Sky Blue"
+ Returns an SKColor from an RGB HEX value (e.g. 0x00AAFF, "Deep Sky Blue")
  
  - Tip: Find awesome colors at https://color.adobe.com/explore/newest/
  
@@ -26,14 +26,14 @@ func ColorFromRGB(rgbvalue rgbValue: Int) -> SKColor {
  
   - Parameter startPoint: The starting CGPoint.
   - Parameter endPoint:   The destination CGPoint.
-  - Parameter smoothToAmount: Percentage of distance to move between the startPoint and endPoint.
+  - Parameter percentToMove: Percentage of distance to move between the startPoint and endPoint.
     Range is between 0.0 meaning 0% and 1.0 meaning 100%.
  
-  - Returns: CGPoint calculated to be smoothToAmount distance between startPoint and endPoint.
+  - Returns: CGPoint calculated to be percentToMove distance between startPoint and endPoint.
  
 **/
-func Smooth(startPoint startPoint: CGFloat, endPoint: CGFloat, smoothToAmount: CGFloat) -> CGFloat {
-    return (startPoint * (1 - smoothToAmount)) + endPoint * smoothToAmount
+func Smooth(startPoint startPoint: CGFloat, endPoint: CGFloat, percentToMove: CGFloat) -> CGFloat {
+    return (startPoint * (1 - percentToMove)) + endPoint * percentToMove
 }
 
 /**
