@@ -9,7 +9,7 @@
 import SpriteKit
 
 // MARK: - Debug
-let kDebug = true
+let kDebug = false
 
 // MARK: - Screen dimension convenience
 let kViewSize = UIScreen.mainScreen().bounds.size
