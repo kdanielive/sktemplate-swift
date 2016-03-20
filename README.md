@@ -19,7 +19,12 @@ cd ~/Downloads && git clone https://github.com/spritekitbook/sktemplate-swift.gi
 mkdir ~/bin && cp ~/Downloads/sktemplate-swift/renameProject.sh ~/bin
 ```
 
-3. Rename the project using the renameProject.sh script.
+3. Make the script executable.
+```bash
+chmod +x ~/bin/renameProject.sh
+```
+
+4. Rename the project using the renameProject.sh script.
 ```bash
 ~/bin/renameProject.sh sktemplate-swift MyCoolGame
 ```
