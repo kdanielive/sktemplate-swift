@@ -26,7 +26,7 @@ cd ~/Downloads && git clone https://github.com/spritekitbook/sktemplate-swift.gi
 ```
 
 
-### Screenshot of the running template on an iPhone 5s Simulator
+### Screenshot
 <p align="center">
   <img src="https://github.com/spritekitbook/spritekitbook.github.io/blob/master/images/sktemplate-swift.png" width="40%">
 </p>
