@@ -10,3 +10,4 @@
 - Updated all OALSimpleAudio code to use SoundNames class vars instead of strings.
 - Updated all SKSpriteNode and SKTexture code to use the GameTextures singleton and SpriteNames class. 
 - Included renameProject.sh script to rename the temmplate project.
+- Changed included music file to "Pinecones.mp3" by Wontolla.
