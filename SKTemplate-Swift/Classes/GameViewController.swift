@@ -37,6 +37,9 @@ class GameViewController: UIViewController {
                 // Play the music
                 OALSimpleAudio.sharedInstance().playBg(SoundNames.Music, loop: true)
                 
+                // Set the volume to 50%
+                OALSimpleAudio.sharedInstance().bgVolume = 0.5
+                
                 if kDebug {
                     print("Screen width: \(kViewSize.width), Screen height: \(kViewSize.height)")
                 }
