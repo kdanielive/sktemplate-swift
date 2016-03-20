@@ -9,22 +9,22 @@ This is a template project you can use as an alternative to the Xcode SpriteKit 
 * Handy Functions. My most used super handy functions are included in Utilities.swift. 
 
 ### Renaming your project
-1. Clone the project some place temporary, like your Downloads folder.
+1 - Clone the project some place temporary, like your Downloads folder.
 ```bash
 cd ~/Downloads && git clone https://github.com/spritekitbook/sktemplate-swift.git
 ```
 
-2. Copy renameProject.sh from the root of the project some place handy, like bin.
+2 - Copy renameProject.sh from the root of the project some place handy, like bin.
 ```bash
 mkdir ~/bin && cp ~/Downloads/sktemplate-swift/renameProject.sh ~/bin
 ```
 
-3. Make the script executable.
+3 - Make the script executable.
 ```bash
 chmod +x ~/bin/renameProject.sh
 ```
 
-4. Rename the project using the renameProject.sh script.
+4 - Rename the project using the renameProject.sh script.
 ```bash
 ~/bin/renameProject.sh sktemplate-swift MyCoolGame
 ```
