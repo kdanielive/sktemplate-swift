@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0AABE81CA06A490049D5C5 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AABDC1CA06A490049D5C5 /* CGFloat+Extensions.swift */; };
+		3F0AABE91CA06A490049D5C5 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AABDD1CA06A490049D5C5 /* CGPoint+Extensions.swift */; };
+		3F0AABEA1CA06A490049D5C5 /* CGVector+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AABDE1CA06A490049D5C5 /* CGVector+Extensions.swift */; };
+		3F0AABEB1CA06A490049D5C5 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AABDF1CA06A490049D5C5 /* Int+Extensions.swift */; };
+		3F0AABEC1CA06A490049D5C5 /* SKAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AABE01CA06A490049D5C5 /* SKAction+Extensions.swift */; };
+		3F0AABED1CA06A490049D5C5 /* SKAction+SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AABE11CA06A490049D5C5 /* SKAction+SpecialEffects.swift */; };
+		3F0AABEE1CA06A490049D5C5 /* SKColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AABE21CA06A490049D5C5 /* SKColor+Extensions.swift */; };
+		3F0AABEF1CA06A490049D5C5 /* SKNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AABE31CA06A490049D5C5 /* SKNode+Extensions.swift */; };
+		3F0AABF01CA06A490049D5C5 /* SKTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AABE41CA06A490049D5C5 /* SKTAudio.swift */; };
+		3F0AABF11CA06A490049D5C5 /* SKTEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AABE51CA06A490049D5C5 /* SKTEffects.swift */; };
+		3F0AABF21CA06A490049D5C5 /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AABE61CA06A490049D5C5 /* SKTTimingFunctions.swift */; };
+		3F0AABF31CA06A490049D5C5 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AABE71CA06A490049D5C5 /* Vector3.swift */; };
 		3F10F5371C8A6A110070E12A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F10F5351C8A6A110070E12A /* Main.storyboard */; };
 		3F10F5391C8A6A110070E12A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F10F5381C8A6A110070E12A /* Assets.xcassets */; };
 		3F10F5471C8A6A110070E12A /* SKTemplate_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10F5461C8A6A110070E12A /* SKTemplate_SwiftTests.swift */; };
@@ -20,13 +32,6 @@
 		3F10F5D71C8A6A590070E12A /* BMGlyphFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10F56F1C8A6A590070E12A /* BMGlyphFont.swift */; };
 		3F10F5D81C8A6A590070E12A /* BMGlyphLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10F5701C8A6A590070E12A /* BMGlyphLabel.swift */; };
 		3F10F5D91C8A6A590070E12A /* build_docs.sh in Resources */ = {isa = PBXBuildFile; fileRef = 3F10F5721C8A6A590070E12A /* build_docs.sh */; };
-		3F10F5DA1C8A6A590070E12A /* ObjectAL-Overview1.eps in Resources */ = {isa = PBXBuildFile; fileRef = 3F10F5741C8A6A590070E12A /* ObjectAL-Overview1.eps */; };
-		3F10F5DB1C8A6A590070E12A /* ObjectAL-Overview1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F10F5751C8A6A590070E12A /* ObjectAL-Overview1.png */; };
-		3F10F5DC1C8A6A590070E12A /* ObjectAL-Overview1.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3F10F5761C8A6A590070E12A /* ObjectAL-Overview1.svg */; };
-		3F10F5DD1C8A6A590070E12A /* ObjectAL-Overview2.eps in Resources */ = {isa = PBXBuildFile; fileRef = 3F10F5771C8A6A590070E12A /* ObjectAL-Overview2.eps */; };
-		3F10F5DE1C8A6A590070E12A /* ObjectAL-Overview2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F10F5781C8A6A590070E12A /* ObjectAL-Overview2.png */; };
-		3F10F5DF1C8A6A590070E12A /* ObjectAL-Overview2.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3F10F5791C8A6A590070E12A /* ObjectAL-Overview2.svg */; };
-		3F10F5E01C8A6A590070E12A /* LICENSE.ObjectAL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F10F57C1C8A6A590070E12A /* LICENSE.ObjectAL.txt */; };
 		3F10F5E11C8A6A590070E12A /* OALAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F10F5811C8A6A590070E12A /* OALAction.m */; };
 		3F10F5E21C8A6A590070E12A /* OALActionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F10F5831C8A6A590070E12A /* OALActionManager.m */; };
 		3F10F5E31C8A6A590070E12A /* OALAudioActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F10F5851C8A6A590070E12A /* OALAudioActions.m */; };
@@ -73,7 +78,6 @@
 		3F9AA30A1C9F04DA00F2C7C4 /* Pinecones.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F9AA3091C9F04DA00F2C7C4 /* Pinecones.mp3 */; };
 		3F9C20EC1C94700500E413FD /* Floppy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C20EB1C94700500E413FD /* Floppy.swift */; };
 		3F9C20EE1C9470E300E413FD /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C20ED1C9470E300E413FD /* Utilities.swift */; };
-		3F9C20F11C9473C000E413FD /* Credits.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F9C20EF1C9473C000E413FD /* Credits.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,14 +98,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F10F52A1C8A6A110070E12A /* SKTemplate-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SKTemplate-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0AABDC1CA06A490049D5C5 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		3F0AABDD1CA06A490049D5C5 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		3F0AABDE1CA06A490049D5C5 /* CGVector+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGVector+Extensions.swift"; sourceTree = "<group>"; };
+		3F0AABDF1CA06A490049D5C5 /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		3F0AABE01CA06A490049D5C5 /* SKAction+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+Extensions.swift"; sourceTree = "<group>"; };
+		3F0AABE11CA06A490049D5C5 /* SKAction+SpecialEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+SpecialEffects.swift"; sourceTree = "<group>"; };
+		3F0AABE21CA06A490049D5C5 /* SKColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKColor+Extensions.swift"; sourceTree = "<group>"; };
+		3F0AABE31CA06A490049D5C5 /* SKNode+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKNode+Extensions.swift"; sourceTree = "<group>"; };
+		3F0AABE41CA06A490049D5C5 /* SKTAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTAudio.swift; sourceTree = "<group>"; };
+		3F0AABE51CA06A490049D5C5 /* SKTEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTEffects.swift; sourceTree = "<group>"; };
+		3F0AABE61CA06A490049D5C5 /* SKTTimingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTTimingFunctions.swift; sourceTree = "<group>"; };
+		3F0AABE71CA06A490049D5C5 /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
+		3F0AABF41CA06A570049D5C5 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		3F0AABF51CA06A570049D5C5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F10F52A1C8A6A110070E12A /* sktemplate-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sktemplate-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F10F5361C8A6A110070E12A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F10F5381C8A6A110070E12A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F10F53D1C8A6A110070E12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
-		3F10F5421C8A6A110070E12A /* SKTemplate-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SKTemplate-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F10F5421C8A6A110070E12A /* sktemplate-swift.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sktemplate-swift.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F10F5461C8A6A110070E12A /* SKTemplate_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKTemplate_SwiftTests.swift; sourceTree = "<group>"; };
 		3F10F5481C8A6A110070E12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F10F54D1C8A6A110070E12A /* SKTemplate-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SKTemplate-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F10F54D1C8A6A110070E12A /* sktemplate-swift.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sktemplate-swift.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F10F5511C8A6A110070E12A /* SKTemplate_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKTemplate_SwiftUITests.swift; sourceTree = "<group>"; };
 		3F10F5531C8A6A110070E12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F10F5671C8A6A590070E12A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -232,12 +250,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F0AABDB1CA06A490049D5C5 /* SKTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				3F0AABF41CA06A570049D5C5 /* LICENSE.txt */,
+				3F0AABF51CA06A570049D5C5 /* README.md */,
+				3F0AABDC1CA06A490049D5C5 /* CGFloat+Extensions.swift */,
+				3F0AABDD1CA06A490049D5C5 /* CGPoint+Extensions.swift */,
+				3F0AABDE1CA06A490049D5C5 /* CGVector+Extensions.swift */,
+				3F0AABDF1CA06A490049D5C5 /* Int+Extensions.swift */,
+				3F0AABE01CA06A490049D5C5 /* SKAction+Extensions.swift */,
+				3F0AABE11CA06A490049D5C5 /* SKAction+SpecialEffects.swift */,
+				3F0AABE21CA06A490049D5C5 /* SKColor+Extensions.swift */,
+				3F0AABE31CA06A490049D5C5 /* SKNode+Extensions.swift */,
+				3F0AABE41CA06A490049D5C5 /* SKTAudio.swift */,
+				3F0AABE51CA06A490049D5C5 /* SKTEffects.swift */,
+				3F0AABE61CA06A490049D5C5 /* SKTTimingFunctions.swift */,
+				3F0AABE71CA06A490049D5C5 /* Vector3.swift */,
+			);
+			path = SKTUtils;
+			sourceTree = "<group>";
+		};
 		3F10F5211C8A6A110070E12A = {
 			isa = PBXGroup;
 			children = (
-				3F10F52C1C8A6A110070E12A /* SKTemplate-Swift */,
-				3F10F5451C8A6A110070E12A /* SKTemplate-SwiftTests */,
-				3F10F5501C8A6A110070E12A /* SKTemplate-SwiftUITests */,
+				3F10F52C1C8A6A110070E12A /* sktemplate-swift */,
+				3F10F5451C8A6A110070E12A /* sktemplate-swiftTests */,
+				3F10F5501C8A6A110070E12A /* sktemplate-swiftTests */,
 				3F10F52B1C8A6A110070E12A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -245,14 +284,14 @@
 		3F10F52B1C8A6A110070E12A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F10F52A1C8A6A110070E12A /* SKTemplate-Swift.app */,
-				3F10F5421C8A6A110070E12A /* SKTemplate-SwiftTests.xctest */,
-				3F10F54D1C8A6A110070E12A /* SKTemplate-SwiftUITests.xctest */,
+				3F10F52A1C8A6A110070E12A /* sktemplate-swift.app */,
+				3F10F5421C8A6A110070E12A /* sktemplate-swift.xctest */,
+				3F10F54D1C8A6A110070E12A /* sktemplate-swift.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F10F52C1C8A6A110070E12A /* SKTemplate-Swift */ = {
+		3F10F52C1C8A6A110070E12A /* sktemplate-swift */ = {
 			isa = PBXGroup;
 			children = (
 				3F10F55F1C8A6A590070E12A /* GameResources */,
@@ -260,25 +299,26 @@
 				3F10F60A1C8A6B080070E12A /* Supporting Files */,
 				3F10F5381C8A6A110070E12A /* Assets.xcassets */,
 			);
-			path = "SKTemplate-Swift";
+			path = "sktemplate-swift";
 			sourceTree = "<group>";
 		};
-		3F10F5451C8A6A110070E12A /* SKTemplate-SwiftTests */ = {
+		3F10F5451C8A6A110070E12A /* sktemplate-swiftTests */ = {
 			isa = PBXGroup;
 			children = (
 				3F10F5461C8A6A110070E12A /* SKTemplate_SwiftTests.swift */,
 				3F10F5481C8A6A110070E12A /* Info.plist */,
 			);
-			path = "SKTemplate-SwiftTests";
+			path = "sktemplate-swiftTests";
 			sourceTree = "<group>";
 		};
-		3F10F5501C8A6A110070E12A /* SKTemplate-SwiftUITests */ = {
+		3F10F5501C8A6A110070E12A /* sktemplate-swiftTests */ = {
 			isa = PBXGroup;
 			children = (
 				3F10F5511C8A6A110070E12A /* SKTemplate_SwiftUITests.swift */,
 				3F10F5531C8A6A110070E12A /* Info.plist */,
 			);
-			path = "SKTemplate-SwiftUITests";
+			name = "sktemplate-swiftTests";
+			path = "sktemplate-swiftUITests";
 			sourceTree = "<group>";
 		};
 		3F10F55F1C8A6A590070E12A /* GameResources */ = {
@@ -322,9 +362,9 @@
 		3F10F56D1C8A6A590070E12A /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				3F0AABDB1CA06A490049D5C5 /* SKTUtils */,
 				3F10F56E1C8A6A590070E12A /* BMGlyphLabel */,
 				3F10F5711C8A6A590070E12A /* ObjectAL */,
-				3F10F5C61C8A6A590070E12A /* SKTUtils */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -491,13 +531,6 @@
 			path = OSX;
 			sourceTree = "<group>";
 		};
-		3F10F5C61C8A6A590070E12A /* SKTUtils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SKTUtils;
-			sourceTree = "<group>";
-		};
 		3F10F6011C8A6AC00070E12A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -585,9 +618,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F10F5291C8A6A110070E12A /* SKTemplate-Swift */ = {
+		3F10F5291C8A6A110070E12A /* sktemplate-swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F10F5561C8A6A110070E12A /* Build configuration list for PBXNativeTarget "SKTemplate-Swift" */;
+			buildConfigurationList = 3F10F5561C8A6A110070E12A /* Build configuration list for PBXNativeTarget "sktemplate-swift" */;
 			buildPhases = (
 				3F10F5261C8A6A110070E12A /* Sources */,
 				3F10F5271C8A6A110070E12A /* Frameworks */,
@@ -597,14 +630,14 @@
 			);
 			dependencies = (
 			);
-			name = "SKTemplate-Swift";
+			name = "sktemplate-swift";
 			productName = "SKTemplate-Swift";
-			productReference = 3F10F52A1C8A6A110070E12A /* SKTemplate-Swift.app */;
+			productReference = 3F10F52A1C8A6A110070E12A /* sktemplate-swift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3F10F5411C8A6A110070E12A /* SKTemplate-SwiftTests */ = {
+		3F10F5411C8A6A110070E12A /* sktemplate-swiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F10F5591C8A6A110070E12A /* Build configuration list for PBXNativeTarget "SKTemplate-SwiftTests" */;
+			buildConfigurationList = 3F10F5591C8A6A110070E12A /* Build configuration list for PBXNativeTarget "sktemplate-swiftTests" */;
 			buildPhases = (
 				3F10F53E1C8A6A110070E12A /* Sources */,
 				3F10F53F1C8A6A110070E12A /* Frameworks */,
@@ -615,14 +648,14 @@
 			dependencies = (
 				3F10F5441C8A6A110070E12A /* PBXTargetDependency */,
 			);
-			name = "SKTemplate-SwiftTests";
+			name = "sktemplate-swiftTests";
 			productName = "SKTemplate-SwiftTests";
-			productReference = 3F10F5421C8A6A110070E12A /* SKTemplate-SwiftTests.xctest */;
+			productReference = 3F10F5421C8A6A110070E12A /* sktemplate-swift.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3F10F54C1C8A6A110070E12A /* SKTemplate-SwiftUITests */ = {
+		3F10F54C1C8A6A110070E12A /* sktemplate-swiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F10F55C1C8A6A110070E12A /* Build configuration list for PBXNativeTarget "SKTemplate-SwiftUITests" */;
+			buildConfigurationList = 3F10F55C1C8A6A110070E12A /* Build configuration list for PBXNativeTarget "sktemplate-swiftUITests" */;
 			buildPhases = (
 				3F10F5491C8A6A110070E12A /* Sources */,
 				3F10F54A1C8A6A110070E12A /* Frameworks */,
@@ -633,9 +666,9 @@
 			dependencies = (
 				3F10F54F1C8A6A110070E12A /* PBXTargetDependency */,
 			);
-			name = "SKTemplate-SwiftUITests";
+			name = "sktemplate-swiftUITests";
 			productName = "SKTemplate-SwiftUITests";
-			productReference = 3F10F54D1C8A6A110070E12A /* SKTemplate-SwiftUITests.xctest */;
+			productReference = 3F10F54D1C8A6A110070E12A /* sktemplate-swift.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -663,7 +696,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3F10F5251C8A6A110070E12A /* Build configuration list for PBXProject "SKTemplate-Swift" */;
+			buildConfigurationList = 3F10F5251C8A6A110070E12A /* Build configuration list for PBXProject "sktemplate-swift" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -676,9 +709,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F10F5291C8A6A110070E12A /* SKTemplate-Swift */,
-				3F10F5411C8A6A110070E12A /* SKTemplate-SwiftTests */,
-				3F10F54C1C8A6A110070E12A /* SKTemplate-SwiftUITests */,
+				3F10F5291C8A6A110070E12A /* sktemplate-swift */,
+				3F10F5411C8A6A110070E12A /* sktemplate-swiftTests */,
+				3F10F54C1C8A6A110070E12A /* sktemplate-swiftUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -688,7 +721,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F10F5DA1C8A6A590070E12A /* ObjectAL-Overview1.eps in Resources */,
 				3F10F5D61C8A6A590070E12A /* Default~ipad.png in Resources */,
 				3F46F5CE1C9F0ADA00E31A06 /* GameFont@2x~ipad.xml in Resources */,
 				3F46F5CD1C9F0ADA00E31A06 /* GameFont@2x.xml in Resources */,
@@ -696,25 +728,18 @@
 				3F46F5D01C9F0ADA00E31A06 /* GameFont~ipad.xml in Resources */,
 				3F46F5C61C9F0AD000E31A06 /* GameFont.atlas in Resources */,
 				3F46F5CC1C9F0ADA00E31A06 /* GameFont.xml in Resources */,
-				3F10F5DE1C8A6A590070E12A /* ObjectAL-Overview2.png in Resources */,
-				3F10F5DB1C8A6A590070E12A /* ObjectAL-Overview1.png in Resources */,
 				3F10F5D11C8A6A590070E12A /* Default-568h@2x.png in Resources */,
 				3F10F5E81C8A6A590070E12A /* Info.plist in Resources */,
 				3F10F5FD1C8A6A590070E12A /* ObjectAL (OSX)-Info.plist in Resources */,
 				3F10F5D41C8A6A590070E12A /* Default@2x.png in Resources */,
-				3F9C20F11C9473C000E413FD /* Credits.txt in Resources */,
 				3F10F5391C8A6A110070E12A /* Assets.xcassets in Resources */,
 				3F10F5371C8A6A110070E12A /* Main.storyboard in Resources */,
 				3F9AA30A1C9F04DA00F2C7C4 /* Pinecones.mp3 in Resources */,
-				3F10F5E01C8A6A590070E12A /* LICENSE.ObjectAL.txt in Resources */,
 				3F10F5D51C8A6A590070E12A /* Default@2x~ipad.png in Resources */,
-				3F10F5DF1C8A6A590070E12A /* ObjectAL-Overview2.svg in Resources */,
 				3F10F5D21C8A6A590070E12A /* Default-667h@2x.png in Resources */,
-				3F10F5DD1C8A6A590070E12A /* ObjectAL-Overview2.eps in Resources */,
 				3F46F5CF1C9F0ADA00E31A06 /* GameFont@3x.xml in Resources */,
 				3F10F5FC1C8A6A590070E12A /* InfoPlist.strings in Resources */,
 				3F10F5D91C8A6A590070E12A /* build_docs.sh in Resources */,
-				3F10F5DC1C8A6A590070E12A /* ObjectAL-Overview1.svg in Resources */,
 				3F10F5D31C8A6A590070E12A /* Default-736h@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -741,13 +766,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F10F6061C8A6AC00070E12A /* GameScene.swift in Sources */,
+				3F0AABED1CA06A490049D5C5 /* SKAction+SpecialEffects.swift in Sources */,
+				3F0AABEF1CA06A490049D5C5 /* SKNode+Extensions.swift in Sources */,
 				3F10F5EF1C8A6A590070E12A /* ALListener.m in Sources */,
 				3F10F5F71C8A6A590070E12A /* mach_timing.c in Sources */,
 				3F10F5EA1C8A6A590070E12A /* ALBuffer.m in Sources */,
+				3F0AABE91CA06A490049D5C5 /* CGPoint+Extensions.swift in Sources */,
 				3F10F5D81C8A6A590070E12A /* BMGlyphLabel.swift in Sources */,
 				3F10F6051C8A6AC00070E12A /* AppDelegate.swift in Sources */,
 				3F10F5E41C8A6A590070E12A /* OALUtilityActions.m in Sources */,
 				3F9C20EC1C94700500E413FD /* Floppy.swift in Sources */,
+				3F0AABEC1CA06A490049D5C5 /* SKAction+Extensions.swift in Sources */,
+				3F0AABEE1CA06A490049D5C5 /* SKColor+Extensions.swift in Sources */,
 				3F10F6131C8A70390070E12A /* Constants.swift in Sources */,
 				3F10F5EC1C8A6A590070E12A /* ALChannelSource.m in Sources */,
 				3F9C20EE1C9470E300E413FD /* Utilities.swift in Sources */,
@@ -757,13 +787,19 @@
 				3F10F5F11C8A6A590070E12A /* ALSource.m in Sources */,
 				3F10F5F01C8A6A590070E12A /* ALSoundSourcePool.m in Sources */,
 				3F10F5F21C8A6A590070E12A /* ALWrapper.m in Sources */,
+				3F0AABF21CA06A490049D5C5 /* SKTTimingFunctions.swift in Sources */,
 				3F10F5F31C8A6A590070E12A /* OpenALManager.m in Sources */,
 				3F10F5E71C8A6A590070E12A /* OALAudioTracks.m in Sources */,
+				3F0AABEA1CA06A490049D5C5 /* CGVector+Extensions.swift in Sources */,
 				3F10F5E31C8A6A590070E12A /* OALAudioActions.m in Sources */,
+				3F0AABF31CA06A490049D5C5 /* Vector3.swift in Sources */,
 				3F10F5FB1C8A6A590070E12A /* OALTools.m in Sources */,
+				3F0AABF11CA06A490049D5C5 /* SKTEffects.swift in Sources */,
 				3F10F5E51C8A6A590070E12A /* OALAudioTrack.m in Sources */,
 				3F10F5F91C8A6A590070E12A /* NSMutableDictionary+WeakReferences.m in Sources */,
 				3F10F5D71C8A6A590070E12A /* BMGlyphFont.swift in Sources */,
+				3F0AABE81CA06A490049D5C5 /* CGFloat+Extensions.swift in Sources */,
+				3F0AABF01CA06A490049D5C5 /* SKTAudio.swift in Sources */,
 				3F10F5E21C8A6A590070E12A /* OALActionManager.m in Sources */,
 				3F10F6071C8A6AC00070E12A /* GameViewController.swift in Sources */,
 				3F10F5EE1C8A6A590070E12A /* ALDevice.m in Sources */,
@@ -771,6 +807,7 @@
 				3F10F5FA1C8A6A590070E12A /* OALAudioFile.m in Sources */,
 				3F10F5E91C8A6A590070E12A /* OALSimpleAudio.m in Sources */,
 				3F46F5BD1C9F079F00E31A06 /* SoundNames.swift in Sources */,
+				3F0AABEB1CA06A490049D5C5 /* Int+Extensions.swift in Sources */,
 				3F10F5E11C8A6A590070E12A /* OALAction.m in Sources */,
 				3F10F5F61C8A6A590070E12A /* IOSVersion.m in Sources */,
 				3F46F5C41C9F098B00E31A06 /* GameTextures.swift in Sources */,
@@ -801,12 +838,12 @@
 /* Begin PBXTargetDependency section */
 		3F10F5441C8A6A110070E12A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3F10F5291C8A6A110070E12A /* SKTemplate-Swift */;
+			target = 3F10F5291C8A6A110070E12A /* sktemplate-swift */;
 			targetProxy = 3F10F5431C8A6A110070E12A /* PBXContainerItemProxy */;
 		};
 		3F10F54F1C8A6A110070E12A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3F10F5291C8A6A110070E12A /* SKTemplate-Swift */;
+			target = 3F10F5291C8A6A110070E12A /* sktemplate-swift */;
 			targetProxy = 3F10F54E1C8A6A110070E12A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -921,10 +958,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/$(PRODUCT_NAME)/GameResources/Library/**";
-				INFOPLIST_FILE = "SKTemplate-Swift/Info.plist";
+				INFOPLIST_FILE = "sktemplate-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.changeme.SKTemplate-Swift";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.changeme.sktemplate-swift";
+				PRODUCT_NAME = "sktemplate-swift";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$PRODUCT_NAME/Classes/Bridging-Header.h";
 			};
 			name = Debug;
@@ -935,10 +972,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/$(PRODUCT_NAME)/GameResources/Library/**";
-				INFOPLIST_FILE = "SKTemplate-Swift/Info.plist";
+				INFOPLIST_FILE = "sktemplate-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.changeme.SKTemplate-Swift";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.changeme.sktemplate-swift";
+				PRODUCT_NAME = "sktemplate-swift";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$PRODUCT_NAME/Classes/Bridging-Header.h";
 			};
 			name = Release;
@@ -951,8 +988,8 @@
 				INFOPLIST_FILE = "SKTemplate-SwiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.changeme.SKTemplate-SwiftTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKTemplate-Swift.app/SKTemplate-Swift";
+				PRODUCT_NAME = "sktemplate-swift";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sktemplate-swift.app/sktemplate-swift";
 			};
 			name = Debug;
 		};
@@ -963,8 +1000,8 @@
 				INFOPLIST_FILE = "SKTemplate-SwiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.changeme.SKTemplate-SwiftTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKTemplate-Swift.app/SKTemplate-Swift";
+				PRODUCT_NAME = "sktemplate-swift";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sktemplate-swift.app/sktemplate-swift";
 			};
 			name = Release;
 		};
@@ -975,7 +1012,7 @@
 				INFOPLIST_FILE = "SKTemplate-SwiftUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.changeme.SKTemplate-SwiftUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "sktemplate-swift";
 				TEST_TARGET_NAME = "SKTemplate-Swift";
 				USES_XCTRUNNER = YES;
 			};
@@ -987,7 +1024,7 @@
 				INFOPLIST_FILE = "SKTemplate-SwiftUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.changeme.SKTemplate-SwiftUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "sktemplate-swift";
 				TEST_TARGET_NAME = "SKTemplate-Swift";
 				USES_XCTRUNNER = YES;
 			};
@@ -996,7 +1033,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F10F5251C8A6A110070E12A /* Build configuration list for PBXProject "SKTemplate-Swift" */ = {
+		3F10F5251C8A6A110070E12A /* Build configuration list for PBXProject "sktemplate-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F10F5541C8A6A110070E12A /* Debug */,
@@ -1005,7 +1042,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F10F5561C8A6A110070E12A /* Build configuration list for PBXNativeTarget "SKTemplate-Swift" */ = {
+		3F10F5561C8A6A110070E12A /* Build configuration list for PBXNativeTarget "sktemplate-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F10F5571C8A6A110070E12A /* Debug */,
@@ -1014,7 +1051,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F10F5591C8A6A110070E12A /* Build configuration list for PBXNativeTarget "SKTemplate-SwiftTests" */ = {
+		3F10F5591C8A6A110070E12A /* Build configuration list for PBXNativeTarget "sktemplate-swiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F10F55A1C8A6A110070E12A /* Debug */,
@@ -1023,7 +1060,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F10F55C1C8A6A110070E12A /* Build configuration list for PBXNativeTarget "SKTemplate-SwiftUITests" */ = {
+		3F10F55C1C8A6A110070E12A /* Build configuration list for PBXNativeTarget "sktemplate-swiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F10F55D1C8A6A110070E12A /* Debug */,

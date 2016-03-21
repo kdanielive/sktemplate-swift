@@ -1,5 +1,8 @@
 ## Changelog for sktemplate-swift
 
+### 03/21/2016
+- Added [SKTUtils](https://github.com/raywenderlich/SKTUtils) to project and updated to Swift 2.0.
+
 ### 03/20/2016
 - Updated GameFonts bitmap font to include @3x size.
 - Added GameTextures singleton class for loading the SKTextureAtlas and returning SKTextures and SKSpriteNodes.
