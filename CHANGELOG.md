@@ -1,5 +1,9 @@
 ## Changelog for sktemplate-swift
 
+### 03/25/2016
+- Updated for Swift 3 compliance.
+- Replaced Swift BMGlyph library with original Objective-C library
+
 ### 03/21/2016
 - Added [SKTUtils](https://github.com/raywenderlich/SKTUtils) to project and updated to Swift 2.0.
 

@@ -37,7 +37,7 @@ class GameScene: SKScene {
         
         // Create an instance of our Bitmap Font and make a label with it.
         let font = BMGlyphFont(name: "GameFont")
-        let label = BMGlyphLabel(txt: "Yay, it works!", fnt: font)
+        let label = BMGlyphLabel(text: "Yay, it works!", font: font)
         label.position = kScreenCenter
         self.addChild(label)
         
@@ -63,8 +63,10 @@ class GameScene: SKScene {
     // MARK: - Update
     override func update(currentTime: NSTimeInterval) {
         // Calculate "Delta"
+        /* Uncomment these two lines to use delta
         let delta = currentTime - self.lastUpdateTime
         self.lastUpdateTime = currentTime
+        */
         
         self.player.update()
 

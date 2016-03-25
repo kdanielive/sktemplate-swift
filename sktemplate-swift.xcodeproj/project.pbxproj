@@ -29,8 +29,6 @@
 		3F10F5D41C8A6A590070E12A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F10F56A1C8A6A590070E12A /* Default@2x.png */; };
 		3F10F5D51C8A6A590070E12A /* Default@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F10F56B1C8A6A590070E12A /* Default@2x~ipad.png */; };
 		3F10F5D61C8A6A590070E12A /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F10F56C1C8A6A590070E12A /* Default~ipad.png */; };
-		3F10F5D71C8A6A590070E12A /* BMGlyphFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10F56F1C8A6A590070E12A /* BMGlyphFont.swift */; };
-		3F10F5D81C8A6A590070E12A /* BMGlyphLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10F5701C8A6A590070E12A /* BMGlyphLabel.swift */; };
 		3F10F5D91C8A6A590070E12A /* build_docs.sh in Resources */ = {isa = PBXBuildFile; fileRef = 3F10F5721C8A6A590070E12A /* build_docs.sh */; };
 		3F10F5E11C8A6A590070E12A /* OALAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F10F5811C8A6A590070E12A /* OALAction.m */; };
 		3F10F5E21C8A6A590070E12A /* OALActionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F10F5831C8A6A590070E12A /* OALActionManager.m */; };
@@ -78,6 +76,8 @@
 		3F9AA30A1C9F04DA00F2C7C4 /* Pinecones.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F9AA3091C9F04DA00F2C7C4 /* Pinecones.mp3 */; };
 		3F9C20EC1C94700500E413FD /* Floppy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C20EB1C94700500E413FD /* Floppy.swift */; };
 		3F9C20EE1C9470E300E413FD /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C20ED1C9470E300E413FD /* Utilities.swift */; };
+		3FDF9A081CA5915B0084CAAF /* BMGlyphFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDF9A051CA5915B0084CAAF /* BMGlyphFont.m */; };
+		3FDF9A091CA5915B0084CAAF /* BMGlyphLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDF9A071CA5915B0084CAAF /* BMGlyphLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,8 +128,6 @@
 		3F10F56A1C8A6A590070E12A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3F10F56B1C8A6A590070E12A /* Default@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x~ipad.png"; sourceTree = "<group>"; };
 		3F10F56C1C8A6A590070E12A /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
-		3F10F56F1C8A6A590070E12A /* BMGlyphFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMGlyphFont.swift; sourceTree = "<group>"; };
-		3F10F5701C8A6A590070E12A /* BMGlyphLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMGlyphLabel.swift; sourceTree = "<group>"; };
 		3F10F5721C8A6A590070E12A /* build_docs.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build_docs.sh; sourceTree = "<group>"; };
 		3F10F5741C8A6A590070E12A /* ObjectAL-Overview1.eps */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ObjectAL-Overview1.eps"; sourceTree = "<group>"; };
 		3F10F5751C8A6A590070E12A /* ObjectAL-Overview1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ObjectAL-Overview1.png"; sourceTree = "<group>"; };
@@ -223,6 +221,10 @@
 		3F9C20EB1C94700500E413FD /* Floppy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Floppy.swift; sourceTree = "<group>"; };
 		3F9C20ED1C9470E300E413FD /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		3F9C20EF1C9473C000E413FD /* Credits.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Credits.txt; sourceTree = "<group>"; };
+		3FDF9A041CA5915B0084CAAF /* BMGlyphFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMGlyphFont.h; sourceTree = "<group>"; };
+		3FDF9A051CA5915B0084CAAF /* BMGlyphFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMGlyphFont.m; sourceTree = "<group>"; };
+		3FDF9A061CA5915B0084CAAF /* BMGlyphLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMGlyphLabel.h; sourceTree = "<group>"; };
+		3FDF9A071CA5915B0084CAAF /* BMGlyphLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMGlyphLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -372,8 +374,10 @@
 		3F10F56E1C8A6A590070E12A /* BMGlyphLabel */ = {
 			isa = PBXGroup;
 			children = (
-				3F10F56F1C8A6A590070E12A /* BMGlyphFont.swift */,
-				3F10F5701C8A6A590070E12A /* BMGlyphLabel.swift */,
+				3FDF9A041CA5915B0084CAAF /* BMGlyphFont.h */,
+				3FDF9A051CA5915B0084CAAF /* BMGlyphFont.m */,
+				3FDF9A061CA5915B0084CAAF /* BMGlyphLabel.h */,
+				3FDF9A071CA5915B0084CAAF /* BMGlyphLabel.m */,
 			);
 			path = BMGlyphLabel;
 			sourceTree = "<group>";
@@ -772,7 +776,6 @@
 				3F10F5F71C8A6A590070E12A /* mach_timing.c in Sources */,
 				3F10F5EA1C8A6A590070E12A /* ALBuffer.m in Sources */,
 				3F0AABE91CA06A490049D5C5 /* CGPoint+Extensions.swift in Sources */,
-				3F10F5D81C8A6A590070E12A /* BMGlyphLabel.swift in Sources */,
 				3F10F6051C8A6AC00070E12A /* AppDelegate.swift in Sources */,
 				3F10F5E41C8A6A590070E12A /* OALUtilityActions.m in Sources */,
 				3F9C20EC1C94700500E413FD /* Floppy.swift in Sources */,
@@ -795,10 +798,11 @@
 				3F0AABF31CA06A490049D5C5 /* Vector3.swift in Sources */,
 				3F10F5FB1C8A6A590070E12A /* OALTools.m in Sources */,
 				3F0AABF11CA06A490049D5C5 /* SKTEffects.swift in Sources */,
+				3FDF9A081CA5915B0084CAAF /* BMGlyphFont.m in Sources */,
 				3F10F5E51C8A6A590070E12A /* OALAudioTrack.m in Sources */,
 				3F10F5F91C8A6A590070E12A /* NSMutableDictionary+WeakReferences.m in Sources */,
-				3F10F5D71C8A6A590070E12A /* BMGlyphFont.swift in Sources */,
 				3F0AABE81CA06A490049D5C5 /* CGFloat+Extensions.swift in Sources */,
+				3FDF9A091CA5915B0084CAAF /* BMGlyphLabel.m in Sources */,
 				3F0AABF01CA06A490049D5C5 /* SKTAudio.swift in Sources */,
 				3F10F5E21C8A6A590070E12A /* OALActionManager.m in Sources */,
 				3F10F6071C8A6AC00070E12A /* GameViewController.swift in Sources */,
