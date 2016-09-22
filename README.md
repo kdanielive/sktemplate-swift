@@ -2,12 +2,14 @@
 
 This is a template project you can use as an alternative to the Xcode SpriteKit template for Swift.
 
+### Update
+09/22/2016: Updated for Xcode 8.0 and Swift 3.0
+
 ### sktemplate-swift Features
-* SKTUtils. Includes [SKTUtils](https://github.com/raywenderlich/SKTUtils) updated to Swift 2.0.
 * ObjectAL. Includes [OALSimpleAudio](http://kstenerud.github.io/ObjectAL-for-iPhone/) for *really* easy audio play back in your games.
 * Bitmap Font Support. Includes the required libraries to use Bitmap Fonts created with [bmglyph](http://www.bmglyph.com). 
 * Animated Character. Example animated character that flies to the location tapped on screen.
-* Handy Functions. My most used super handy functions are included in Utilities.swift. 
+* Handy Functions. My most used super handy functions are included in Math.swift and Colors.swift. 
 
 ### Renaming your project
 1 - Clone the project some place temporary, like your Downloads folder.
