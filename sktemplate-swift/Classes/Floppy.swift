@@ -1,3 +1,6 @@
+
+
+
 //
 //  Floppy.swift
 //  SKTemplate-Swift
@@ -11,49 +14,49 @@ import SpriteKit
 class Floppy:SKSpriteNode {
     
     // MARK: - Private class constants
-    private let frame0 = GameTextures.sharedInstance.textureWithName(name: SpriteNames.Bird0)
-    private let frame1 = GameTextures.sharedInstance.textureWithName(name: SpriteNames.Bird1)
-    private let frame2 = GameTextures.sharedInstance.textureWithName(name: SpriteNames.Bird2)
-    private let frame3 = GameTextures.sharedInstance.textureWithName(name: SpriteNames.Bird3)
+    fileprivate let frame0 = GameTextures.sharedInstance.textureWith(name: SpriteNames.Bird0)
+    fileprivate let frame1 = GameTextures.sharedInstance.textureWith(name: SpriteNames.Bird1)
+    fileprivate let frame2 = GameTextures.sharedInstance.textureWith(name: SpriteNames.Bird2)
+    fileprivate let frame3 = GameTextures.sharedInstance.textureWith(name: SpriteNames.Bird3)
     
     
     // MARK: - Private class variables
-    private var flapAnimation = SKAction()
-    private var targetLocation = CGPoint()
+    fileprivate var flapAnimation = SKAction()
+    fileprivate var targetPosition = CGPoint()
     
     // MARK: - Init
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
-    private override init(texture: SKTexture?, color: UIColor, size: CGSize) {
+    fileprivate override init(texture: SKTexture?, color: UIColor, size: CGSize) {
         super.init(texture: texture, color: color, size: size)
     }
     
     convenience init() {
-        let texture = GameTextures.sharedInstance.textureWithName(name: SpriteNames.Bird0)
-        self.init(texture: texture, color: SKColor.whiteColor(), size: texture.size())
+        let texture = GameTextures.sharedInstance.textureWith(name: SpriteNames.Bird0)
+        self.init(texture: texture, color: SKColor.white, size: texture.size())
         
         self.setup()
         self.setupAnimation()
     }
     
     // MARK: - Setup
-    private func setup() {
-        self.targetLocation = kScreenCenter
+    fileprivate func setup() {
+        targetPosition = kScreenCenter
     }
     
-    private func setupAnimation() {
-        self.flapAnimation = SKAction.animateWithTextures([frame0, frame1, frame2, frame3], timePerFrame: 0.1)
+    fileprivate func setupAnimation() {
+        flapAnimation = SKAction.animate(with: [frame0, frame1, frame2, frame3], timePerFrame: 0.1)
         
-        self.runAction(SKAction.repeatActionForever(self.flapAnimation))
+        self.run(SKAction.repeatForever(self.flapAnimation))
     }
     
     // MARK: - Actions
-    func flyToPosition(position position: CGPoint) {
-        self.targetLocation = position
+    func flyTo(position: CGPoint) {
+        targetPosition = position
         
-        if self.targetLocation.x < self.position.x {
+        if targetPosition.x < self.position.x {
             self.xScale = -1
         } else {
             self.xScale = 1
@@ -62,8 +65,8 @@ class Floppy:SKSpriteNode {
     
     // MARK: - Update
     func update() {
-        let newX = Smooth(startPoint: self.position.x, endPoint: self.targetLocation.x, percentToMove: 0.05)
-        let newY = Smooth(startPoint: self.position.y, endPoint: self.targetLocation.y, percentToMove: 0.05)
+        let newX = Smooth(start: self.position.x, end: targetPosition.x, percent: 0.05)
+        let newY = Smooth(start: self.position.y, end: targetPosition.y, percent: 0.05)
         
         self.position = CGPoint(x: newX, y: newY)
     }

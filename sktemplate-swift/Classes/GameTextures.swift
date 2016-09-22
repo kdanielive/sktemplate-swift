@@ -8,36 +8,33 @@
 
 import SpriteKit
 
-let GameTexturesInstance = GameTextures()
-
 class GameTextures {
     
-    class var sharedInstance:GameTextures {
-        return GameTexturesInstance
-    }
+    
+    static let sharedInstance = GameTextures()
     
     // MARK: - Private class variables
-    private var atlas = SKTextureAtlas()
+    fileprivate var atlas = SKTextureAtlas()
     
     
     // MARK: - Init
-    private init() {
+    fileprivate init() {
         self.setupTextures()
     }
     
     // MARK: - Setup
-    private func setupTextures() {
-        self.atlas = SKTextureAtlas(named: SpriteNames.Atlas)
+    fileprivate func setupTextures() {
+        atlas = SKTextureAtlas(named: SpriteNames.Atlas)
     }
     
     // MARK: - Public Functions
-    func spriteWithName(name name: String) -> SKSpriteNode {
-        let texture = self.atlas.textureNamed(name)
+    func spriteWith(name: String) -> SKSpriteNode {
+        let texture = atlas.textureNamed(name)
         return SKSpriteNode(texture: texture)
     }
     
-    func textureWithName(name name: String) -> SKTexture {
-        return self.atlas.textureNamed(name)
+    func textureWith(name: String) -> SKTexture {
+        return atlas.textureNamed(name)
     }
 }
 

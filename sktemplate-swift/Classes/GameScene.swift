@@ -11,10 +11,10 @@ import SpriteKit
 class GameScene: SKScene {
     
     // MARK: - Private class constants
-    private let player = Floppy()
+    fileprivate let player = Floppy()
     
     // MARK: - Private class variables
-    private var lastUpdateTime:NSTimeInterval = 0.0
+    fileprivate var lastUpdateTime:TimeInterval = 0.0
     
     // MARK: - Init
     required init?(coder aDecoder: NSCoder) {
@@ -27,48 +27,48 @@ class GameScene: SKScene {
         self.setupScene()
     }
     
-    override func didMoveToView(view: SKView) {
+    override func didMove(to view: SKView) {
     }
     
     // MARK: - Setup
-    private func setupScene() {
+    fileprivate func setupScene() {
         // Set the backgroundColor to Black
-        self.backgroundColor = SKColor.blackColor()
+        self.backgroundColor = SKColor.black
         
         // Create an instance of our Bitmap Font and make a label with it.
         let font = BMGlyphFont(name: "GameFont")
         let label = BMGlyphLabel(text: "Yay, it works!", font: font)
-        label.position = kScreenCenter
-        self.addChild(label)
+        label?.position = kScreenCenter
+        self.addChild(label!)
         
         // Run a scale sequence action on the label
-        label.runAction(SKAction.scaleTo(1.1, duration: 0.25), completion: {
-            label.runAction(SKAction.scaleTo(1.0, duration: 0.25))
+        label?.run(SKAction.scale(to: 1.1, duration: 0.25), completion: {
+            label?.run(SKAction.scale(to: 1.0, duration: 0.25))
         })
         
         self.addChild(self.player)
     }
     
     // MARK: - Touch Events
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         let touch:UITouch = touches.first! as UITouch
-        let touchLocation = touch.locationInNode(self)
+        let touchLocation = touch.location(in: self)
         
-        self.player.flyToPosition(position: touchLocation)
+        player.flyTo(position: touchLocation)
         
         OALSimpleAudio.sharedInstance().playEffect(SoundNames.Pop)
     }
    
     
     // MARK: - Update
-    override func update(currentTime: NSTimeInterval) {
+    override func update(_ currentTime: TimeInterval) {
         // Calculate "Delta"
         /* Uncomment these two lines to use delta
         let delta = currentTime - self.lastUpdateTime
         self.lastUpdateTime = currentTime
         */
         
-        self.player.update()
+        player.update()
 
     }
     

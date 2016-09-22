@@ -7,18 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F0AABE81CA06A490049D5C5 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AABDC1CA06A490049D5C5 /* CGFloat+Extensions.swift */; };
-		3F0AABE91CA06A490049D5C5 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AABDD1CA06A490049D5C5 /* CGPoint+Extensions.swift */; };
-		3F0AABEA1CA06A490049D5C5 /* CGVector+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AABDE1CA06A490049D5C5 /* CGVector+Extensions.swift */; };
-		3F0AABEB1CA06A490049D5C5 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AABDF1CA06A490049D5C5 /* Int+Extensions.swift */; };
-		3F0AABEC1CA06A490049D5C5 /* SKAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AABE01CA06A490049D5C5 /* SKAction+Extensions.swift */; };
-		3F0AABED1CA06A490049D5C5 /* SKAction+SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AABE11CA06A490049D5C5 /* SKAction+SpecialEffects.swift */; };
-		3F0AABEE1CA06A490049D5C5 /* SKColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AABE21CA06A490049D5C5 /* SKColor+Extensions.swift */; };
-		3F0AABEF1CA06A490049D5C5 /* SKNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AABE31CA06A490049D5C5 /* SKNode+Extensions.swift */; };
-		3F0AABF01CA06A490049D5C5 /* SKTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AABE41CA06A490049D5C5 /* SKTAudio.swift */; };
-		3F0AABF11CA06A490049D5C5 /* SKTEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AABE51CA06A490049D5C5 /* SKTEffects.swift */; };
-		3F0AABF21CA06A490049D5C5 /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AABE61CA06A490049D5C5 /* SKTTimingFunctions.swift */; };
-		3F0AABF31CA06A490049D5C5 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AABE71CA06A490049D5C5 /* Vector3.swift */; };
 		3F10F5371C8A6A110070E12A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F10F5351C8A6A110070E12A /* Main.storyboard */; };
 		3F10F5391C8A6A110070E12A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F10F5381C8A6A110070E12A /* Assets.xcassets */; };
 		3F10F5471C8A6A110070E12A /* SKTemplate_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10F5461C8A6A110070E12A /* SKTemplate_SwiftTests.swift */; };
@@ -73,9 +61,10 @@
 		3F46F5CE1C9F0ADA00E31A06 /* GameFont@2x~ipad.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F5C91C9F0AD900E31A06 /* GameFont@2x~ipad.xml */; };
 		3F46F5CF1C9F0ADA00E31A06 /* GameFont@3x.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F5CA1C9F0ADA00E31A06 /* GameFont@3x.xml */; };
 		3F46F5D01C9F0ADA00E31A06 /* GameFont~ipad.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F5CB1C9F0ADA00E31A06 /* GameFont~ipad.xml */; };
+		3F7DC7021D9400EC0051D5A4 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DC7011D9400EC0051D5A4 /* Math.swift */; };
+		3F7DC7041D9401F90051D5A4 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DC7031D9401F90051D5A4 /* Colors.swift */; };
 		3F9AA30A1C9F04DA00F2C7C4 /* Pinecones.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F9AA3091C9F04DA00F2C7C4 /* Pinecones.mp3 */; };
 		3F9C20EC1C94700500E413FD /* Floppy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C20EB1C94700500E413FD /* Floppy.swift */; };
-		3F9C20EE1C9470E300E413FD /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C20ED1C9470E300E413FD /* Utilities.swift */; };
 		3FDF9A081CA5915B0084CAAF /* BMGlyphFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDF9A051CA5915B0084CAAF /* BMGlyphFont.m */; };
 		3FDF9A091CA5915B0084CAAF /* BMGlyphLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDF9A071CA5915B0084CAAF /* BMGlyphLabel.m */; };
 /* End PBXBuildFile section */
@@ -98,20 +87,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F0AABDC1CA06A490049D5C5 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
-		3F0AABDD1CA06A490049D5C5 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
-		3F0AABDE1CA06A490049D5C5 /* CGVector+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGVector+Extensions.swift"; sourceTree = "<group>"; };
-		3F0AABDF1CA06A490049D5C5 /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
-		3F0AABE01CA06A490049D5C5 /* SKAction+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+Extensions.swift"; sourceTree = "<group>"; };
-		3F0AABE11CA06A490049D5C5 /* SKAction+SpecialEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+SpecialEffects.swift"; sourceTree = "<group>"; };
-		3F0AABE21CA06A490049D5C5 /* SKColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKColor+Extensions.swift"; sourceTree = "<group>"; };
-		3F0AABE31CA06A490049D5C5 /* SKNode+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKNode+Extensions.swift"; sourceTree = "<group>"; };
-		3F0AABE41CA06A490049D5C5 /* SKTAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTAudio.swift; sourceTree = "<group>"; };
-		3F0AABE51CA06A490049D5C5 /* SKTEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTEffects.swift; sourceTree = "<group>"; };
-		3F0AABE61CA06A490049D5C5 /* SKTTimingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTTimingFunctions.swift; sourceTree = "<group>"; };
-		3F0AABE71CA06A490049D5C5 /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
-		3F0AABF41CA06A570049D5C5 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		3F0AABF51CA06A570049D5C5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F10F52A1C8A6A110070E12A /* sktemplate-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sktemplate-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F10F5361C8A6A110070E12A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F10F5381C8A6A110070E12A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -217,9 +192,10 @@
 		3F46F5C91C9F0AD900E31A06 /* GameFont@2x~ipad.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GameFont@2x~ipad.xml"; sourceTree = "<group>"; };
 		3F46F5CA1C9F0ADA00E31A06 /* GameFont@3x.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GameFont@3x.xml"; sourceTree = "<group>"; };
 		3F46F5CB1C9F0ADA00E31A06 /* GameFont~ipad.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GameFont~ipad.xml"; sourceTree = "<group>"; };
+		3F7DC7011D9400EC0051D5A4 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		3F7DC7031D9401F90051D5A4 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		3F9AA3091C9F04DA00F2C7C4 /* Pinecones.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pinecones.mp3; sourceTree = "<group>"; };
 		3F9C20EB1C94700500E413FD /* Floppy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Floppy.swift; sourceTree = "<group>"; };
-		3F9C20ED1C9470E300E413FD /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		3F9C20EF1C9473C000E413FD /* Credits.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Credits.txt; sourceTree = "<group>"; };
 		3FDF9A041CA5915B0084CAAF /* BMGlyphFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMGlyphFont.h; sourceTree = "<group>"; };
 		3FDF9A051CA5915B0084CAAF /* BMGlyphFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMGlyphFont.m; sourceTree = "<group>"; };
@@ -252,27 +228,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F0AABDB1CA06A490049D5C5 /* SKTUtils */ = {
-			isa = PBXGroup;
-			children = (
-				3F0AABF41CA06A570049D5C5 /* LICENSE.txt */,
-				3F0AABF51CA06A570049D5C5 /* README.md */,
-				3F0AABDC1CA06A490049D5C5 /* CGFloat+Extensions.swift */,
-				3F0AABDD1CA06A490049D5C5 /* CGPoint+Extensions.swift */,
-				3F0AABDE1CA06A490049D5C5 /* CGVector+Extensions.swift */,
-				3F0AABDF1CA06A490049D5C5 /* Int+Extensions.swift */,
-				3F0AABE01CA06A490049D5C5 /* SKAction+Extensions.swift */,
-				3F0AABE11CA06A490049D5C5 /* SKAction+SpecialEffects.swift */,
-				3F0AABE21CA06A490049D5C5 /* SKColor+Extensions.swift */,
-				3F0AABE31CA06A490049D5C5 /* SKNode+Extensions.swift */,
-				3F0AABE41CA06A490049D5C5 /* SKTAudio.swift */,
-				3F0AABE51CA06A490049D5C5 /* SKTEffects.swift */,
-				3F0AABE61CA06A490049D5C5 /* SKTTimingFunctions.swift */,
-				3F0AABE71CA06A490049D5C5 /* Vector3.swift */,
-			);
-			path = SKTUtils;
-			sourceTree = "<group>";
-		};
 		3F10F5211C8A6A110070E12A = {
 			isa = PBXGroup;
 			children = (
@@ -364,7 +319,6 @@
 		3F10F56D1C8A6A590070E12A /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				3F0AABDB1CA06A490049D5C5 /* SKTUtils */,
 				3F10F56E1C8A6A590070E12A /* BMGlyphLabel */,
 				3F10F5711C8A6A590070E12A /* ObjectAL */,
 			);
@@ -588,9 +542,10 @@
 			isa = PBXGroup;
 			children = (
 				3F10F6121C8A70390070E12A /* Constants.swift */,
-				3F9C20ED1C9470E300E413FD /* Utilities.swift */,
 				3F46F5BC1C9F079F00E31A06 /* SoundNames.swift */,
 				3F46F5C01C9F090700E31A06 /* SpriteNames.swift */,
+				3F7DC7011D9400EC0051D5A4 /* Math.swift */,
+				3F7DC7031D9401F90051D5A4 /* Colors.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -682,11 +637,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Jeremy Novak";
 				TargetAttributes = {
 					3F10F5291C8A6A110070E12A = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 					};
 					3F10F5411C8A6A110070E12A = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -770,40 +726,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F10F6061C8A6AC00070E12A /* GameScene.swift in Sources */,
-				3F0AABED1CA06A490049D5C5 /* SKAction+SpecialEffects.swift in Sources */,
-				3F0AABEF1CA06A490049D5C5 /* SKNode+Extensions.swift in Sources */,
 				3F10F5EF1C8A6A590070E12A /* ALListener.m in Sources */,
 				3F10F5F71C8A6A590070E12A /* mach_timing.c in Sources */,
 				3F10F5EA1C8A6A590070E12A /* ALBuffer.m in Sources */,
-				3F0AABE91CA06A490049D5C5 /* CGPoint+Extensions.swift in Sources */,
 				3F10F6051C8A6AC00070E12A /* AppDelegate.swift in Sources */,
 				3F10F5E41C8A6A590070E12A /* OALUtilityActions.m in Sources */,
 				3F9C20EC1C94700500E413FD /* Floppy.swift in Sources */,
-				3F0AABEC1CA06A490049D5C5 /* SKAction+Extensions.swift in Sources */,
-				3F0AABEE1CA06A490049D5C5 /* SKColor+Extensions.swift in Sources */,
 				3F10F6131C8A70390070E12A /* Constants.swift in Sources */,
 				3F10F5EC1C8A6A590070E12A /* ALChannelSource.m in Sources */,
-				3F9C20EE1C9470E300E413FD /* Utilities.swift in Sources */,
 				3F10F5F51C8A6A590070E12A /* OALSuspendHandler.m in Sources */,
 				3F10F5E61C8A6A590070E12A /* OALAudioTrackNotifications.m in Sources */,
 				3F10F5F81C8A6A590070E12A /* NSMutableArray+WeakReferences.m in Sources */,
 				3F10F5F11C8A6A590070E12A /* ALSource.m in Sources */,
 				3F10F5F01C8A6A590070E12A /* ALSoundSourcePool.m in Sources */,
 				3F10F5F21C8A6A590070E12A /* ALWrapper.m in Sources */,
-				3F0AABF21CA06A490049D5C5 /* SKTTimingFunctions.swift in Sources */,
 				3F10F5F31C8A6A590070E12A /* OpenALManager.m in Sources */,
 				3F10F5E71C8A6A590070E12A /* OALAudioTracks.m in Sources */,
-				3F0AABEA1CA06A490049D5C5 /* CGVector+Extensions.swift in Sources */,
 				3F10F5E31C8A6A590070E12A /* OALAudioActions.m in Sources */,
-				3F0AABF31CA06A490049D5C5 /* Vector3.swift in Sources */,
 				3F10F5FB1C8A6A590070E12A /* OALTools.m in Sources */,
-				3F0AABF11CA06A490049D5C5 /* SKTEffects.swift in Sources */,
 				3FDF9A081CA5915B0084CAAF /* BMGlyphFont.m in Sources */,
 				3F10F5E51C8A6A590070E12A /* OALAudioTrack.m in Sources */,
 				3F10F5F91C8A6A590070E12A /* NSMutableDictionary+WeakReferences.m in Sources */,
-				3F0AABE81CA06A490049D5C5 /* CGFloat+Extensions.swift in Sources */,
 				3FDF9A091CA5915B0084CAAF /* BMGlyphLabel.m in Sources */,
-				3F0AABF01CA06A490049D5C5 /* SKTAudio.swift in Sources */,
 				3F10F5E21C8A6A590070E12A /* OALActionManager.m in Sources */,
 				3F10F6071C8A6AC00070E12A /* GameViewController.swift in Sources */,
 				3F10F5EE1C8A6A590070E12A /* ALDevice.m in Sources */,
@@ -811,9 +755,10 @@
 				3F10F5FA1C8A6A590070E12A /* OALAudioFile.m in Sources */,
 				3F10F5E91C8A6A590070E12A /* OALSimpleAudio.m in Sources */,
 				3F46F5BD1C9F079F00E31A06 /* SoundNames.swift in Sources */,
-				3F0AABEB1CA06A490049D5C5 /* Int+Extensions.swift in Sources */,
 				3F10F5E11C8A6A590070E12A /* OALAction.m in Sources */,
+				3F7DC7041D9401F90051D5A4 /* Colors.swift in Sources */,
 				3F10F5F61C8A6A590070E12A /* IOSVersion.m in Sources */,
+				3F7DC7021D9400EC0051D5A4 /* Math.swift in Sources */,
 				3F46F5C41C9F098B00E31A06 /* GameTextures.swift in Sources */,
 				3F10F5F41C8A6A590070E12A /* OALAudioSession.m in Sources */,
 				3F10F5EB1C8A6A590070E12A /* ALCaptureDevice.m in Sources */,
@@ -886,8 +831,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -931,8 +878,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -951,6 +900,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -967,6 +917,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.changeme.sktemplate-swift";
 				PRODUCT_NAME = "sktemplate-swift";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$PRODUCT_NAME/Classes/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -981,6 +932,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.changeme.sktemplate-swift";
 				PRODUCT_NAME = "sktemplate-swift";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$PRODUCT_NAME/Classes/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
